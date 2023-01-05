@@ -18,10 +18,10 @@ const Currency = () => {
         <div className='alert alert-dark'>
             <label htmlfor='Currency-Select'>Currency </label>
             <select className='Currency' id='Currency-Select' onChange={(event) => setName(event.target.value)}>
-                <option defaultValue>£ Pound</option>
-                <option value='Dollar' name='Dollar'>$ Dollar</option>
-                <option value='Euro' name='Euro'>€ Euro</option>
-                <option value='Ruppee' name='Ruppee'>R Rupee</option>
+                <option value='£' name='Pound'>£ Pound</option>
+                <option value='$' name='Dollar'>$ Dollar</option>
+                <option value='€' name='Euro'>€ Euro</option>
+                <option value='Rs' name='Ruppee'>Rs Rupee</option>
             </select>
         </div>
     )
